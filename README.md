@@ -1,5 +1,12 @@
 # Exploratory Data anlaysis using Python and its framworks - Pandas, Numpy, Matplot
 
+**Choropleth Mapping (python) -- Created geographical maps using plotly**
+Decision Trees & Random Forest to Predict Borrower Payback (python) -- Created decision tree and random forest models to predict loan payback using Lending Club data. I completed this project as part of an online data science course.
+
+**Ecommerce Analysis using Linear Regression (python)** -- Used Linear Regression to give insight into ecommerce company's decision on whether to focus on their mobile app or website. I completed this project as part of an online data science course. The data and company are fictional.
+
+
+**Bank Debt Analaysis**
 After a debt has been legally declared "uncollectable" by a bank, the account is considered to be "charged-off." But that doesn't mean the bank simply walks away from the debt. They still want to collect some of the money they are owed. The bank will score the account to assess the expected recovery amount, that is, the expected amount that the bank may be able to receive from the customer in the future (for a fixed time period such as one year). This amount is a function of the probability of the customer paying, the total debt, and other factors that impact the ability and willingness to pay.
 
 The bank has implemented different recovery strategies at different thresholds ($1000, $2000, etc.) where the greater the expected recovery amount, the more effort the bank puts into contacting the customer. For low recovery amounts (Level 0), the bank just adds the customer's contact information to their automatic dialer and emailing system. For higher recovery strategies, the bank incurs more costs as they leverage human resources in more efforts to contact the customer and obtain payments. Each additional level of recovery strategy requires an additional $50 per customer so that customers in the Recovery Strategy Level 1 cost the company $50 more than those in Level 0. Customers in Level 2 cost $50 more than those in Level 1, etc.
@@ -8,13 +15,13 @@ The big question: does the extra amount that is recovered at the higher strategy
 
 
 **Project Overview**
-This project focuses on analyzing bank debt recovery strategies using Python and its frameworks - Pandas, Numpy, and Matplotlib. The analysis aims to understand the effectiveness of different recovery strategies implemented by a bank once a debt is considered "charged-off."
+* This project focuses on analyzing bank debt recovery strategies using Python and its frameworks - Pandas, Numpy, and Matplotlib. The analysis aims to understand the effectiveness of different recovery strategies implemented by a bank once a debt is considered "charged-off."
 
 **Objective**
-The primary objective is to evaluate if the incremental costs invested in higher-level recovery strategies yield a corresponding increase in the amount recovered, ensuring the extra effort is financially justified.
+* The primary objective is to evaluate if the incremental costs invested in higher-level recovery strategies yield a corresponding increase in the amount recovered, ensuring the extra effort is financially justified.
 
 **Dataset Introduction**
-We start by loading a banking dataset that includes various details related to charged-off accounts and the recovery strategies employed. Initial data exploration involves understanding the dataset's structure, identifying missing values, and visualizing data distributions.
+* We start by loading a banking dataset that includes various details related to charged-off accounts and the recovery strategies employed. Initial data exploration involves understanding the dataset's structure, identifying missing values, and visualizing data distributions.
 
 **Analysis Strategy**
   * Data Cleaning: Address missing values, outliers, and inconsistencies to ensure data quality.
@@ -26,6 +33,8 @@ We start by loading a banking dataset that includes various details related to c
 
 **Visualizations**
 * Include graphs such as the "Regression Discontinuity graph" to illustrate any significant jumps in recovery amounts that correlate with changes in recovery strategy levels.
+![TopDownDashboard](https://github.com/hritvikgupta/Python-Data-Analysis/assets/60143996/70bca80f-cb60-46aa-9204-ea8349099dc8)
+![BottomUpDashboard](https://github.com/hritvikgupta/Python-Data-Analysis/assets/60143996/0ca85071-f48d-427b-af0e-b1f8f2e1d206)
 
 <img width="533" alt="Screenshot 2024-03-17 at 6 00 50 AM" src="https://github.com/hritvikgupta/Bank-Debts-Recovery/assets/60143996/e6215b3d-e354-4710-9f81-73c3c112faaf">
 <img width="928" alt="Screenshot 2024-03-17 at 6 01 17 AM" src="https://github.com/hritvikgupta/Bank-Debts-Recovery/assets/60143996/618cd5aa-adf9-43a3-9fa1-ea971b818a8b">
