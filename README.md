@@ -32,13 +32,11 @@ The big question: does the extra amount that is recovered at the higher strategy
   * The analysis should reveal whether higher recovery strategies (Level 1 and above), which are more resource-intensive, lead to a significant increase in recovery amounts that justify the additional $50 per customer expense. It aims to identify the optimal point where the recovery strategy becomes cost-effective.
 
 **Visualizations**
-* Include graphs such as the "Regression Discontinuity graph" to illustrate any significant jumps in recovery amounts that correlate with changes in recovery strategy levels.
+
 ![TopDownDashboard](https://github.com/hritvikgupta/Python-Data-Analysis/assets/60143996/70bca80f-cb60-46aa-9204-ea8349099dc8)
 ![BottomUpDashboard](https://github.com/hritvikgupta/Python-Data-Analysis/assets/60143996/0ca85071-f48d-427b-af0e-b1f8f2e1d206)
-
-<img width="533" alt="Screenshot 2024-03-17 at 6 00 50 AM" src="https://github.com/hritvikgupta/Bank-Debts-Recovery/assets/60143996/e6215b3d-e354-4710-9f81-73c3c112faaf">
 <img width="928" alt="Screenshot 2024-03-17 at 6 01 17 AM" src="https://github.com/hritvikgupta/Bank-Debts-Recovery/assets/60143996/618cd5aa-adf9-43a3-9fa1-ea971b818a8b">
-
+<img width="533" alt="Screenshot 2024-03-17 at 6 00 50 AM" src="https://github.com/hritvikgupta/Bank-Debts-Recovery/assets/60143996/e6215b3d-e354-4710-9f81-73c3c112faaf">
 
 
 **Conclusion**
